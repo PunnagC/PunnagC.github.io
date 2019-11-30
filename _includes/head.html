@@ -46,4 +46,9 @@
   <!--[if lte IE 8]><script src="{{- 'assets/js/ie/respond.min.js' | relative_url -}}" defer></script><![endif]-->
   <script src="{{- 'assets/js/main.js' | relative_url -}}" defer></script>
 
+   <!-- support the MathJax if necessary -->
+    {% if page.use_math %}
+      {% include mathjax_support %}
+    {% endif %}
+  
 </head>
