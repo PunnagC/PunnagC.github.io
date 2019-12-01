@@ -8,4 +8,4 @@ Additionally, using a flexure hinge segment could provide additional tuning capa
 
 One such usage of the flexure hinge is demonstrated below, in an aeroelastic energy harvesting device. To create an abrupt change in the out-of-plane bending rigidity of the structure, a series of patterned cuts are integrated into the substrate, creating a compliant flexure segment and dividing the structure into a 'beam segment upstream and a 'flap segment' downstream. Compared to previous modal convergence flutter energy harvesters, which used a discrete pin or ball-bearing hinge assembly between a beam.
 
-<a href="assets/pages/Project1.pdf">Read More</a><br>
+<a href="Project1.pdf">Read More</a><br>
