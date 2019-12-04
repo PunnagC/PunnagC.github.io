@@ -1,10 +1,10 @@
 ---
 title: Projects
-use_math: true
 icon: fa-th
 order: 4
 ---
 <html>
+<!--- ----------------------------------------------------- --->  
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -14,11 +14,9 @@ order: 4
           src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
   </script>
 </head>
+ <!--- ----------------------------------------------------- --->   
+  
 <body>
-
-
-
-
 <div align="left"><h2>Journal Publications:</h2></div>
 <br>
   
@@ -53,14 +51,15 @@ deflection of the discretized structure undergoing bending is given by
   Balancing the moment acting across the tip and root of the \(i^{th}\) rigid element gives us the torsional rotation of the \(i^{th}\) 
 spring as
 <br>  
-  \[ θ_i = {{P(l_n + x_i)}\over{k_θ}}  \]
+<!---  \[ θ_i = {{P(l_n + x_i)}\over{k_θ}}  \] --->
 <br>  
   Assuming small angles and neglecting the effect of geometric foreshortening under large deflections, the effective linear tip 
 stiffness of the discretized structure is given by \(K_l\). This can be further equated to the linear tip stiffness of an equivalent 
 beam of length \(l_h\) and with the same cantilevered boundary conditions
 <br>
- \[ δ_{n_h} = \displaystyle\sum_{j=1}^{n_h} l_r \sin⁡(\displaystyle\sum_{p=1}^{j} θ_p) \]
 
+<!--- \[ K_l = {P \over {δ_{n_h}}} = {{3 \overline {EI_e}} \over {{l_h}^3}} = {{6k_θ} \over {l_r[ 3 l_h n_h (n_h + 1) - l_r (n_h - 1) n_h (n_h+1)]}} \]
+--->
 <br>
   Thus, the effective bending rigidity of the flexure segment, \(\overline {EI_e}\) can now be written as
 <br>
@@ -107,4 +106,5 @@ abcdefgh ijklmnop qrstuvwx yz abcdefgh ijklmnop qrstuvwx yz abcdefgh ijklmnop qr
 <br>
 
   </body>
+  <!--- ----------------------------------------------------- --->  
  </html>
