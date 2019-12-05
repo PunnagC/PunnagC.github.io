@@ -46,12 +46,12 @@ spring of stiffness \(k_θ\) (where, \(k_θ = 2GJ⁄l_e\) ). Figure above shows 
 cantilevered from a wall and bending due to a load \(P\) applied to the tip of rigid element \(n_h\). Under these conditions, the tip 
 deflection of the discretized structure undergoing bending is given by
 <br>
-<!---  \[ δ_{n_h} = \displaystyle\sum_{j=1}^{n_h} l_r \sin⁡(\displaystyle\sum_{p=1}^{j} θ_p) \] --->
+\[ δ_{n_h} = \displaystyle\sum_{j=1}^{n_h} l_r \sin⁡(\displaystyle\sum_{p=1}^{j} θ_p) \] 
 <br>
   Balancing the moment acting across the tip and root of the \(i^{th}\) rigid element gives us the torsional rotation of the \(i^{th}\) 
 spring as
 <br>  
-<!---  \[ θ_i = {{P(l_n + x_i)}\over{k_θ}}  \] --->
+ \[ θ_i = \frac{P(l_n + x_i)}{k_θ}\] 
 <br>  
   Assuming small angles and neglecting the effect of geometric foreshortening under large deflections, the effective linear tip 
 stiffness of the discretized structure is given by \(K_l\). This can be further equated to the linear tip stiffness of an equivalent 
