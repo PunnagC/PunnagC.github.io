@@ -42,22 +42,22 @@ convergence flutter energy harvesters, which used a discrete pin or ball-bearing
 <br>  
   In order to derive the effective bending rigidity, the patterned flexure segment of length \(l_h\) is discretized into \(n_h\) rigid 
 links each having an elemental length of \(l_r\). Each of these elemental links is connected to the preceding link with a rotational 
-spring of stiffness \(k_θ\) (where, \(k_θ = 2GJ⁄l_e\) ). Figure above shows this arrangement of links and rotational springs 
+spring of stiffness \(k_\theta\) (where, \(k_\theta = 2GJ⁄l_e\) ). Figure above shows this arrangement of links and rotational springs 
 cantilevered from a wall and bending due to a load \(P\) applied to the tip of rigid element \(n_h\). Under these conditions, the tip 
 deflection of the discretized structure undergoing bending is given by
 <br>
-\[ δ_{n_h} = \displaystyle\sum_{j=1}^{n_h} l_r \sin⁡(\displaystyle\sum_{p=1}^{j} θ_p) \] 
+\[ δ_{n_h} = \displaystyle\sum_{j=1}^{n_h} l_r \sin⁡(\displaystyle\sum_{p=1}^{j} \theta_p) \] 
 <br>
   Balancing the moment acting across the tip and root of the \(i^{th}\) rigid element gives us the torsional rotation of the \(i^{th}\) 
 spring as
 <br>  
- \[ θ_i = \frac{P(l_n - x_i)}{k_\theta}\] 
+ \[ \theta_i = \frac{P(l_n - x_i)}{k_\theta}\] 
 <br>  
   Assuming small angles and neglecting the effect of geometric foreshortening under large deflections, the effective linear tip 
 stiffness of the discretized structure is given by \(K_l\). This can be further equated to the linear tip stiffness of an equivalent 
 beam of length \(l_h\) and with the same cantilevered boundary conditions
 <br>
-
+\[ K_l = \frac{P}{δ_{n_h}} = \frac{3\overline{EI_e}}{{l_h}^3} = \frac{6k_\theta}{l_r[ 3 l_h n_h (n_h + 1) - l_r (n_h - 1) n_h (n_h+1)]} \]
 <br>
   Thus, the effective bending rigidity of the flexure segment, \(\overline {EI_e}\) can now be written as
 <br>
